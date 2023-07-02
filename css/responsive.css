@@ -1,0 +1,517 @@
+/* responsive for desktop, laptop, others */
+
+@media (max-width: 960px) {
+
+	.header .navbar-nav .nav-item .nav-link {
+	    margin: 5px 0px;
+	    width: 40%;
+	    text-align: center;
+	}
+
+	.banner {
+	    width: 100%;
+	    padding: 60px 0px 400px;
+	    position: relative;
+	}
+
+	.banner .bufico {
+	    position: absolute;
+	    top: 8%;
+	    right: 70px;
+	}
+
+	.banner .circon {
+	    position: absolute;
+	    right: 48%;
+	    bottom: 8%;
+	    z-index: 2;
+	}
+
+	.banner .offer {
+	    position: absolute;
+	    bottom: 12%;
+	    right: 52%;
+	    z-index: 3;
+	}
+
+	.feature .burgo {
+    	margin: 0px 0px 30px;
+	}
+
+	.feature .fetxo {
+	    position: absolute;
+	    top: 10%;
+	    left: 18%;
+	    z-index: 3;
+	}
+
+	.feature .fetxt {
+	    position: absolute;
+	    top: 54%;
+	    right: 68%;
+	    z-index: 3;
+	}
+
+	.feature .fetxw {
+	    position: absolute;
+	    top: 76%;
+	    right: 64%;
+	    z-index: 3;
+	}
+
+	.collection p {
+	    font-size: 18px;
+	    margin: 10px 0px 20px;
+	}	
+
+	.collection .burg-box {
+    	width: 100%;
+    }
+
+	.collection .burg-box .colger {
+    	object-fit: scale-down;
+	}
+
+	.slider {
+	    padding: 60px 0px 40px;
+	}
+
+	.slider .owl-carousel .item {
+    	padding: 30px 40px 70px 40px;
+	}
+
+	.slider .owl-carousel .item h4 {
+    	margin: 10px 0px 10px;
+	}
+
+	.slider .owl-carousel .item h2 {
+    	margin: 0px 0px 15px;
+	}
+
+	.slider .owl-carousel .item p {
+    	font-size: 16px;
+    	margin: 0px 45px 30px 0px;
+	}
+
+	.slider .owl-theme .owl-nav.disabled+.owl-dots {
+	    margin: 0px 0px;
+	    position: absolute;
+	    left: 45%;
+	    bottom: 2%;
+	    z-index: 1;
+	}
+
+	.reservation {
+    	padding: 100px 0px;
+	}
+
+	.reservation h2 {
+    	margin: 0px 0px 35px;
+	}
+
+	.footer {
+    	padding: 60px 0px 20px;
+    	margin: 10px auto 40px;
+	}
+
+	.footer p {
+    	font-size: 12px;
+    	margin: 10px 0px 10px;
+	}
+
+	.footer .right-align {
+    	text-align: left;
+	}
+
+	.footer ul li a {
+    	font-size: 18px;
+    	padding: 8px 15px;
+	}
+
+	.inner-footer ul {
+    	padding: 10px 0px;
+	}
+
+	.inner-footer .copyright {
+    	margin: 6px 0px 15px;
+    	text-align: center;
+	}
+
+	.footer ul li a {
+    	padding: 7px 4px;
+	}
+
+	.inner-footer ul {
+    	margin: 0px;
+	}
+
+	.inner-footer .align-corner {
+    	text-align: center;
+	}
+
+}
+
+
+/* responsive for tab, pad, others */
+
+@media (max-width: 720px) {
+
+	.header .navbar-nav .nav-item .nav-link {
+	    margin: 5px 0px;
+	    width: 40%;
+	    text-align: center;
+	}
+
+	.banner {
+	    width: 100%;
+	    padding: 60px 0px 400px;
+	    position: relative;
+	}
+
+	.banner .bufico {
+    	position: absolute;
+    	top: 10%;
+    	right: -38px;
+	}
+
+	.banner .circon {
+    	position: absolute;
+    	right: 53%;
+    	bottom: 8%;
+    	z-index: 2;
+	}
+
+	.banner .offer {
+    	position: absolute;
+	    bottom: 12%;
+    	right: 58%;
+    	z-index: 3;
+	}
+
+	.feature {
+   	 	padding: 60px 80px 60px 0px;
+	}
+
+	.feature .burgo {
+    	margin: 0px 0px 30px;
+	}
+
+	.feature .fetxo {
+	    position: absolute;
+	    top: 10%;
+	    left: 14%;
+	    z-index: 3;
+	}
+
+	.feature .fetxt {
+	    position: absolute;
+	    top: 54%;
+	    right: 66%;
+	    z-index: 3;
+	}
+
+	.feature .fetxw {
+	    position: absolute;
+	    top: 76%;
+	    right: 61%;
+	    z-index: 3;
+	}
+
+	.collection h1 {
+    	font-size: 45px;
+	}
+
+	.collection p {
+    	font-size: 15px;
+    	margin: 10px 0px 20px;
+	}	
+
+	.collection .burg-box {
+    	width: 100%;
+    }
+
+	.collection .burg-box .colger {
+    	object-fit: scale-down;
+	}
+
+	.collection .burg-box p {
+    	font-size: 20px;
+	}
+
+	.slider {
+	    padding: 60px 0px 40px;
+	}
+
+	.slider .owl-carousel .item {
+    	padding: 30px 40px 70px 40px;
+	}
+
+	.slider .owl-carousel .item h4 {
+    	margin: 10px 0px 10px;
+	}
+
+	.slider .owl-carousel .item h2 {
+		font-size: 36px;
+    	margin: 0px 0px 15px;
+	}
+
+	.slider .owl-carousel .item p {
+    	font-size: 14px;
+    	margin: 0px 55px 0px 0px;
+	}
+
+	.slider .owl-theme .owl-nav.disabled+.owl-dots {
+	    margin: 0px 0px;
+	    position: absolute;
+	    left: 45%;
+	    bottom: 2%;
+	    z-index: 1;
+	}
+
+	.reservation {
+    	padding: 70px 0px;
+	}
+
+	.reservation h2 {
+		font-size: 40px;
+    	margin: 0px 0px 30px;
+	}
+
+	.footer {
+    	padding: 60px 0px 20px;
+    	margin: 10px auto 40px;
+	}
+
+	.footer .footlogo {
+    	width: 300px;
+    	height: 65px;
+	}
+
+	.footer p {
+    	font-size: 12px;
+    	margin: 10px 0px 10px;
+	}
+
+	.footer .right-align {
+    	text-align: left;
+	}
+
+	.footer ul li a {
+    	font-size: 15px;
+    	padding: 8px 15px;
+	}
+
+	.inner-footer ul {
+    	padding: 10px 0px;
+	}
+
+	.inner-footer .copyright {
+    	margin: 5px 0px 5px;
+    	text-align: center;
+	}
+
+	.footer ul li a {
+    	padding: 7px 4px;
+	}
+
+	.inner-footer ul {
+    	margin: 0px;
+	}
+
+	.inner-footer .align-corner {
+    	text-align: center;
+	}
+
+}
+
+
+@media (max-width: 540px) {
+
+	.header .navbar-nav .nav-item .nav-link {
+	    margin: 5px 0px;
+	    width: 40%;
+	    text-align: center;
+	}
+
+	.banner {
+	    width: 100%;
+	    padding: 60px 0px 400px;
+	    position: relative;
+	}
+
+	.banner .bufico {
+    	width: 600px;
+    	top: 22%;
+    	right: -45px;
+	}
+
+	.banner .circon {
+    	width: 130px;
+    	height: 130px;
+    	right: 55%;
+    	bottom: 11%;
+	}
+
+	.banner .offer {
+		font-size: 26px;
+    	bottom: 14%;
+    	right: 60%;
+	}
+
+	.feature {
+    	padding: 60px 0px 60px 0px;
+	}
+
+	.feature .burgo {
+    	width: 500px;
+	}
+
+	.feature .fetxo {
+    	top: 9%;
+    	left: 8%;
+	}
+
+	.feature .fetxo p {
+    	font-size: 20px;
+	}
+
+	.feature .fetxo h3 {
+    	font-size: 28px;
+	}
+
+	.feature .burgt {
+    	width: 500px;
+	}
+
+	.feature .fetxt {
+	    position: absolute;
+	    top: 54%;
+	    right: 68%;
+	    z-index: 3;
+	}
+
+	.feature .fetxt p {
+    	font-size: 16px;
+	}
+
+	.feature .fetxt h3 {
+    	font-size: 28px;
+	}
+
+	.feature .fetxt {
+    	top: 55%;
+    	right: 68%;
+	}
+
+	.feature .burgw {
+    	width: 500px;
+	}
+
+	.feature .fetxw {
+    	top: 78%;
+    	right: 63%;
+	}
+
+	.feature .fetxw p {
+    	font-size: 16px;
+	}
+
+	.feature .fetxw h3 {
+    	font-size: 28px;
+	}
+
+	.collection {
+    	padding: 40px 30px 50px;
+	}
+
+	.collection p {
+	    font-size: 13px;
+	    margin: 10px 0px 10px;
+	}	
+
+	.collection .burg-box {
+    	width: 100%;
+    }
+
+	.collection .burg-box .colger {
+    	object-fit: scale-down;
+	}
+
+	.slider {
+	    padding: 60px 0px 40px;
+	}
+
+	.slider .owl-carousel .item {
+    	padding: 30px 40px 70px 40px;
+	}
+
+	.slider .owl-carousel .item h4 {
+    	margin: 10px 0px 10px;
+	}
+
+	.slider .owl-carousel .item h2 {
+    	margin: 0px 0px 15px;
+	}
+
+	.slider .owl-carousel .item p {
+    	font-size: 16px;
+    	margin: 0px 45px 30px 0px;
+	}
+
+	.slider .owl-theme .owl-nav.disabled+.owl-dots {
+	    margin: 0px 0px;
+	    position: absolute;
+	    left: 45%;
+	    bottom: 2%;
+	    z-index: 1;
+	}
+
+	.reservation {
+    	padding: 60px 40px;
+	}
+
+	.reservation h2 {
+    	margin: 0px 0px 35px;
+	}
+
+	.footer {
+    	padding: 60px 0px 20px;
+    	margin: 10px auto 40px;
+	}
+
+	.footer p {
+    	font-size: 12px;
+    	margin: 10px 0px 10px;
+	}
+
+	.footer .right-align {
+    	text-align: left;
+	}
+
+	.footer ul li a {
+    	font-size: 14px;
+    	padding: 8px 15px;
+	}
+
+	.inner-footer ul {
+    	padding: 10px 0px;
+	}
+
+	.inner-footer .copyright {
+    	margin: 6px 0px 15px;
+    	text-align: center;
+	}
+
+	.footer ul li a {
+    	padding: 7px 4px;
+	}
+
+	.inner-footer ul {
+    	margin: 0px;
+	}
+
+	.inner-footer .align-corner {
+    	text-align: center;
+	}
+
+}

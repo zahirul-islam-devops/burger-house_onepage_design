@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	text-rendering: optimizeLegibility;
+}
+
+
+/* Global CSS code start */
+
+
+
+/* Global CSS code end */
+
+
+/* header section start */
+
+.header {
+	width: 100%;
+	background: url("../images/design.png") center top no-repeat;
+	background-size: cover;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #3d2514;
+	text-transform: uppercase;
+	margin: 0px 10px 0px;
+	transition: .4s;
+	cursor: pointer;
+}
+
+.header .navbar-nav .nav-item .nav-link:hover {
+	background-color: #3d2514;
+	color: #ffc74d;
+	border: 1px solid #3d2514;
+	border-radius: 4px;
+	padding: 5px 15px;
+}
+
+.header .navbar-nav .nav-item .active {
+    font-family: 'Montserrat', sans-serif;
+	background-color: #3d2514;
+	color: #ffc74d;
+	border: 1px solid #3d2514;
+	border-radius: 4px;
+	padding: 5px 18px;
+	cursor: pointer;
+}
+
+/* banner section start */
+
+.banner {
+	width: 100%;
+	padding: 100px 0px 200px;
+	position: relative;
+}
+
+.banner h4 {
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 26px;
+    border: 2px dashed #3d2514;
+    display: inline-block;
+    padding: 13px 18px;
+    /* margin-left: -16px; */
+}
+
+.banner h1 {
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-size: 110px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 3.5px 3.5px 3px white;
+}
+
+.banner h2 {
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 3.5px 3.5px 3px white;
+}
+
+.banner .offer {
+    font-family: 'Oswald', sans-serif;
+    font-size: 31px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0px;
+    position: absolute;
+    bottom: 20%;
+    right: 35%;
+    z-index: 3;
+}
+
+.banner .offer sub {
+    bottom: -0.0em;
+    margin: 0px 5px 0px;
+}
+
+.banner .circon {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    right: 33%;
+    bottom: 15%;
+    z-index: 2;
+}
+
+.banner .bufico {
+    width: 750px;
+    height: auto;
+    position: absolute;
+    top: -22%;
+    right: 175px;
+}
+
+/* banner section end */
+
+
+/* feature section start */
+
+.feature {
+	width: 100%;
+	padding: 80px 0px;
+	position: relative;
+}
+
+.feature .burgo {
+
+}
+
+.feature .fetxo {
+    position: absolute;
+    top: 17%;
+    left: 17%;
+    z-index: 3;
+}
+
+.feature .fetxo p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 1.7em;
+    font-weight: 500;
+    margin: 0px 0px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.feature .fetxo h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 500;
+    margin: 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.feature .fetxt {
+    position: absolute;
+    top: 18%;
+    right: 41%;
+    z-index: 3;
+}
+
+.feature .fetxt p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 500;
+    margin: 0px 0px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.feature .fetxt h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 500;
+    margin: 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.feature .burgt {
+	margin: 0px 0px 30px;
+}
+
+.feature .fetxw {
+    position: absolute;
+    top: 56%;
+    right: 39%;
+    z-index: 3;
+}
+
+.feature .fetxw p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 500;
+    margin: 0px 0px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.feature .fetxw h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 500;
+    margin: 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* feature section end */
+
+
+/* collection section end */
+
+.collection {
+	width: 100%;
+	padding: 60px 0px 80px;
+	text-align: center;
+/*	background: linear-gradient(120deg, rgba(76,230,249,1) 9%, rgba(166,54,221,1) 71%);*/
+    background: linear-gradient(120deg, rgba(76,230,249,1) 9%, rgba(255,177,216,1) 71%);
+}
+
+.collection .btn-warning {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    border-radius: 0px;
+    background: #ffc045;
+    color: #3d2514;
+    border: 2px solid #ffc045;
+    margin: 0px 0px 20px;
+    transition: .6s;
+}
+
+.collection h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 1.2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 10px 0px 20px;
+}
+
+.collection p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #3d2514;
+    margin: 10px 0px 30px;
+}
+
+.collection .burg-box {
+    width: 92%;
+    padding: 40px 30px;
+    text-align: center;;
+    margin: 30px 0px 0px;
+    transition: .5s;
+    /* From https://css.glass */
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
+.burg-box:hover {
+	transform: scale(1.1);
+}
+
+.collection .burg-box .colger {
+    width: 100%;
+    height: 350px;
+}
+
+.collection .shdow {
+	width: 130%;
+	height: auto;
+}
+
+.collection .burg-box h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #3d2514;
+    text-transform: uppercase;
+    margin: 10px 0px 15px;
+}
+
+.collection .burg-box p {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 500;
+    color: #3d2514;
+    text-transform: capitalize;
+    margin: 10px 0px 20px;
+}
+
+.collection .burg-box .btn-danger {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 35px;
+    border-radius: 0px;
+    background-color: #bf2222;
+    color: #ffffff;
+    border: 1px solid #bf2222;
+    margin: 10px 0px 20px;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.collection .burg-box .btn-danger:hover {
+	background: transparent;
+	color: #bf2222;
+	border: 1px solid #bf2222;
+}
+ 
+/* collection section end */
+
+
+/* slider section start */
+
+.slider {
+	width: 100%;
+	padding: 80px 0px 40px;
+}
+
+.slider .owl-carousel {
+    box-shadow: 4px 4px 32px #00000030;
+}
+
+.slider .owl-carousel .item {
+    padding: 40px 30px 40px 60px;
+}
+
+.slider .owl-carousel .item h4 {
+	font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 40px 0px 10px;
+}
+
+.slider .owl-carousel .item h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    line-height: 1.2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 0px 0px 20px;
+}
+
+.slider .owl-carousel .item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #3d2514;
+    margin: 0px 70px 0px 0px;
+}
+
+.slider .owl-carousel .item .sliderger {
+	width: 100%;
+}
+
+.slider .owl-theme .owl-dots {
+	text-align: left;
+}  
+
+.slider .owl-theme .owl-nav.disabled+.owl-dots {
+    margin: 0px 0px;
+    position: absolute;
+    left: 4%;
+    bottom: 10%;
+    z-index: 1;
+}
+
+.slider .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.slider .owl-theme .owl-dots .owl-dot span {
+	background: #dcdcdc;
+}
+
+.slider .owl-theme .owl-dots .owl-dot.active span {
+	background: #ffc045;
+	width: 15px;
+	height: 15px;
+	margin: 10px 5px 3px;
+}
+
+.slider .owl-carousel .owl-nav.disabled {
+    display: none;
+}
+
+
+/* slider section end */
+
+
+/* reservation section start */
+
+.reservation {
+	width: 100%;
+	padding: 200px 0px;
+	background: url("../images/conburg.png") top center no-repeat;
+	background-size: cover;
+}
+
+.reservation h4 {
+	font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 0px 0px 10px;
+}
+
+.reservation h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.2em;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #3d2514;
+    margin: 0px 0px 60px;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 40px 50px;
+    border: 1px dashed #bebebe;
+}
+
+.contact-form .form-control {
+    font-family: 'Montserrat', sans-serif;
+	padding: 15px;
+	font-size: 16px;
+	font-weight: 400;
+	border-radius: 6px;
+	border: 1px solid #bebebe;
+	color: #3d3d3d;
+}
+
+.contact-form .form-control:focus {
+    background-color: transparent;
+    border-color: rgb(191 34 34);
+    box-shadow: 0 0 0 0.10rem rgb(191 34 34);
+}
+
+.contact-form .btn-danger {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    border-radius: 6px;
+    background-color: #bf2222;
+    color: #ffffff;
+    border: 1px solid #bf2222;
+    margin: 0px 0px 0px;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.contact-form .btn-danger:hover {
+	background-color: transparent;
+	color: #bf2222;
+	border: 1px solid #bf2222;
+}
+
+/* reservation section end */
+
+
+/* footer section start */
+
+.footer {
+	width: 92%;
+	padding: 80px 0px 40px;
+	background: url("../images/footbag.png") top center no-repeat;
+	background-size: cover;
+	margin: 10px auto 50px;
+}
+
+.footer .footlogo {
+    width: 375px;
+    height: 85px;
+    margin: 0px 0px 20px;
+}
+
+.footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 20px 0px 10px;
+}
+
+.footer ul {
+    display: block;
+}
+
+.footer ul li {
+    list-style-type: none;
+    display: block;
+}
+
+.footer ul li a {
+	font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 3px;
+}
+
+.footer .right-align {
+    text-align: right;
+    padding: 10px 0px 50px;
+}
+
+.footer ul li a .fa {
+    margin: 0px 15px 0px 0px;
+    font-size: 35px;
+}
+
+
+.footer .inner-footer {
+	width: 100%;
+}
+
+.inner-footer .copyright {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 500;
+    color: #fff;
+    margin: 5px 0px 5px;
+}
+
+.inner-footer ul {
+	display: block;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.inner-footer ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.inner-footer ul li a {
+    display: block;
+    background: #ffffff;
+    color: #0a0909;
+    width: 50px;
+    height: 50px;
+    line-height: 41px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0px 8px 0px;
+    background: #fff;
+    border: 1px solid #fff;
+    transition: .4s;
+}
+
+.inner-footer ul li a:hover {
+	transform: rotate(360deg);
+}
+
+.inner-footer ul li a .fa {
+    margin: 0px;
+    font-size: 30px;
+}
+
+.fa-instagram {
+	background: linear-gradient(120deg, rgba(125,0,250,1) 9%, rgba(213,0,198,1) 41%, rgba(248,206,94,1) 90%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+.fa-facebook {
+	color: #0064eb;
+}
+
+.fa-twitter {
+	color: #1da1f2;
+}
+
+.fa-whatsapp {
+	color: #4cc75a;
+}
+
+.fa-youtube {
+	color: #ff0303;
+}
+
+.inner-footer .align-corner {
+	text-align: right;
+}
+
+
+/* footer section end */
